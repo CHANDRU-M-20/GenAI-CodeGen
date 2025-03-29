@@ -1,0 +1,171 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+# Note: It's recommended to use a consistent name like '.venv' or 'venv'
+# for your virtual environment across projects.
+
+# Secrets - !!! NEVER commit secrets !!!
+# Ensure files containing sensitive information (API keys, passwords, etc.)
+# are listed here or handled securely (e.g., environment variables, secret managers)
+*.env.* # Matches .env.local, .env.development, etc. (excluding .env.example)
+!.env.example # Often safe to commit as a template
+secrets.yaml
+credentials.*
+
+# --- IDEs / Editors ---
+# VS Code
+.vscode/*
+!.vscode/settings.json # Optional: Share common settings if desired
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# PyCharm
+.idea/
+*.iws # IntelliJ workspace files (older)
+*.iml # IntelliJ module files (older)
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+# Session Vimstore file
+.netrwhist
+
+# Jupyter Notebook / Lab Checkpoints
+.ipynb_checkpoints
+
+# --- OS Generated Files ---
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+# Folder config file
+[Dd]esktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+# Windows shortcuts
+*.lnk
+
+# --- Specific Frameworks/Libraries (Optional - uncomment/add as needed) ---
+# Django
+# *.log # Consider ignoring specific log files instead of all logs
+# local_settings.py
+# db.sqlite3
+# db.sqlite3-journal
+
+# Flask
+# instance/ # Often contains config/secrets/db
+# .webassets-cache # Flask-Assets cache
+
+# Celery
+# celerybeat-schedule
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# --- Other ---
+# Logs directory (if you create one)
+logs/
+*.log
+
+# Large data files (add patterns specific to your project)
+# data/
+# *.csv
+# *.pkl
+# *.hdf5
+
+# Build artifacts from other languages/tools if used (e.g., node_modules for JS tools)
+# node_modules/
+# yarn-error.log
+# npm-debug.log*

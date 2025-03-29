@@ -1,0 +1,10 @@
+google-genai
+streamlit
+pandas
+numpy
+openai
+requests
+pillow
+python-dotenv
+tqdm
+langchain-google-genai
