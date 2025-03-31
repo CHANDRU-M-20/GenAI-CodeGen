@@ -1,0 +1,1 @@
+Java is a versatile, object-oriented programming language designed to be platform-independent, meaning compiled Java code can run on any system with a Java Virtual Machine (JVM).  It's widely used for building applications ranging from web and mobile to enterprise and embedded systems.
